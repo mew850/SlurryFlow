@@ -1,0 +1,37 @@
+{
+  "data_dir": "data/raw/rheology",
+  "viscosity_input_unit": "mPa.s",
+  "samples": [
+    {"sample": "Q1", "file": "Q1.csv", "phi_cb": 0.0038, "split": "test"},
+    {"sample": "Q7", "file": "Q7.csv", "phi_cb": 0.0076, "split": "train"},
+    {"sample": "Q2", "file": "Q2.csv", "phi_cb": 0.0114, "split": "test"},
+    {"sample": "Q3", "file": "Q3.csv", "phi_cb": 0.0152, "split": "train"},
+    {"sample": "Q4", "file": "Q4.csv", "phi_cb": 0.0190, "split": "test"},
+    {"sample": "Q5", "file": "Q5.csv", "phi_cb": 0.0228, "split": "train"},
+    {"sample": "Q6", "file": "Q6.csv", "phi_cb": 0.0266, "split": "test"}
+  ],
+  "material": {
+    "w_pvdf": 0.05,
+    "primary_radius_m": 7.5e-8,
+    "maximum_packing_fraction": 0.60,
+    "pvdf_grade": "5130"
+  },
+  "calibration": {
+    "df_bounds": [1.20, 2.80],
+    "k_phi_bounds": [0.20, 12.0],
+    "points_per_curve": 18,
+    "q_scan_calibration": 28,
+    "q_scan_prediction": 120,
+    "random_state": 42
+  },
+  "fluent_table": {
+    "shear_rate_min_s-1": 0.01,
+    "shear_rate_max_s-1": 100000.0,
+    "n_shear": 201,
+    "phi_cb_min": 0.0001,
+    "phi_cb_max": 0.035,
+    "n_phi": 81,
+    "viscosity_min_Pa_s": 0.0001,
+    "viscosity_max_Pa_s": 1000.0
+  }
+}

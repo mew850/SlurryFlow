@@ -1,0 +1,17 @@
+{
+  "df": 1.3550565417692155,
+  "k_phi": 0.20000012158547764,
+  "objective_mse": 0.005878538827137118,
+  "residual_kernel": "1.47**2 * RBF(length_scale=[4.11, 0.243]) + WhiteKernel(noise_level=0.000246)",
+  "train_samples": [
+    "Q7",
+    "Q3",
+    "Q5"
+  ],
+  "test_samples": [
+    "Q1",
+    "Q2",
+    "Q4",
+    "Q6"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "n_random_points": 40,
+  "max_abs_log10_error": 0.001484864872516367,
+  "mean_abs_log10_error": 0.00011918700475133513,
+  "max_multiplicative_error": 0.0034248792628048808,
+  "viscosity_min_Pa_s": 0.004292394211166936,
+  "viscosity_max_Pa_s": 198.19118877808583
+}

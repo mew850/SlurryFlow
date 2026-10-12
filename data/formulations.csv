@@ -1,0 +1,8 @@
+sample,file,phi_cb,split,notes
+Q1,Q1.csv,0.0038,test,low-end extrapolation test
+Q7,Q7.csv,0.0076,train,calibration curve
+Q2,Q2.csv,0.0114,test,interpolation test
+Q3,Q3.csv,0.0152,train,calibration curve
+Q4,Q4.csv,0.0190,test,interpolation test
+Q5,Q5.csv,0.0228,train,calibration curve
+Q6,Q6.csv,0.0266,test,high-end extrapolation test
